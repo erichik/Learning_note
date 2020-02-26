@@ -37,4 +37,16 @@
 `$ tail filename`
 顯示檔案內容最後幾行
 
+### .gz操作
+`$ gzip FileName` 
+壓縮
+
+`$ gunzip FileName.gz` 
+解壓縮
+
+`$ zcat FileName` 
+不壓縮直接讀取檔案
+
+
+
 
