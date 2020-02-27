@@ -37,4 +37,27 @@
 `$ tail filename`
 顯示檔案內容最後幾行
 
+`$ wc [option] filename`
+列出檔案的行數、單字數、位元組數
+
+**[options]**
+-c：--bytes 顯示位元數統計。 
+-m：--chars 顯示字母數統計。 
+-l：--lines 顯示行數統計。 
+-L：--max-line-length 印出最長一行的字數。 
+-w：--words 顯示單字數(word)統計。 
+
+
+### .gz操作
+`$ gzip FileName` 
+壓縮
+
+`$ gunzip FileName.gz` 
+解壓縮
+
+`$ zcat FileName` 
+不壓縮直接讀取檔案
+
+
+
 
