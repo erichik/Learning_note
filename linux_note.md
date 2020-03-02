@@ -26,13 +26,20 @@
 -rw-r--r--
 權限標示
 
+`$ nano filename.py `
+開啟or創造一個.py檔案
+
+`$ mv oldfilename newfilename `
+改名
 
 ## log操作指令
 `$ cat filename`
 顯示檔案內容
 
-`$ head filename`
+`$ head [-n n_lines] filename` 
 顯示檔案內容前幾行
+EX:`head -n 1000 filename`
+1000行
 
 `$ tail filename`
 顯示檔案內容最後幾行
