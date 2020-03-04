@@ -65,6 +65,9 @@ EX:`head -n 1000 filename`
 `$ zcat FileName` 
 不壓縮直接讀取檔案
 
+`$ unzip file.zip`
+解壓縮.zip檔案
+
 
 
 
